@@ -1,4 +1,4 @@
-# dchen741.github.io
+# Personal Website
 Learning React and combining it with github pages
 
 ## Technology
@@ -12,6 +12,7 @@ Learning React and combining it with github pages
 1. `npm install` to get all the dependencies
 2. `npm run build` to build the project and get index.html and bundle.js
   * index and bundle files will be pushed to github pages and displayed
+3. `npm start` to run locally
 
 ## How I got started
 1. `npm init` with mostly defaults
@@ -21,3 +22,4 @@ Learning React and combining it with github pages
   * Use **html-webpack-plugin** for index.html
   * Use babel as a loader so that the .babelrc can transform jsx to js
 5. Create app folder where the actual application lives. Webpack will bundle this into a bundle.js and index.html that the site will use to display
+6. Added in a server.js so can test everything locally, including hot-loading
