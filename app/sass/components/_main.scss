@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i");
+$font-stack:    'Open Sans';
+$primary-color: blue;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}

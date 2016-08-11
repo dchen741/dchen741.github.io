@@ -20,6 +20,11 @@ module.exports = {
         test: /\.js$/,
         include: __dirname + '/app',
         loader: "babel"
+      },
+      {
+          test: /\.scss$/,
+          include: __dirname + '/app',
+          loaders: ['style', 'css', 'sass']
       }
     ]
   },
