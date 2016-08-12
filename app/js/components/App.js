@@ -1,10 +1,12 @@
 import React from 'react';
+import Header from './Header';
 
 export default class App extends React.Component {
 
   render() {
     return(
       <div>
+      <Header />
         <h3 className="standard-text">
           Hello! I graduated in 2015 from <a href="http://www.tufts.edu/">Tufts University</a> where I studied Computer Science.
           I have taken a variety of CS courses during my time at college and I am fascinated by what is still out there.

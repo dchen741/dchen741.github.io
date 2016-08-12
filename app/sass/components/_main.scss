@@ -1,8 +1,9 @@
 $font-stack: 'Open Sans';
 
 body {
-  padding-right: 3%;
-  padding-left: 3%;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 1em;
   margin-right: auto;
   margin-left: auto;
   font-family: 'Open Sans', sans-serif;
@@ -12,6 +13,12 @@ body {
 
 .standard-text {
   font-weight: 300;
+}
+
+.header-text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 400;
 }
 
 .text-center {
