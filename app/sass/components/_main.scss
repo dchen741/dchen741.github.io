@@ -1,7 +1,19 @@
-$font-stack:    'Open Sans';
-$primary-color: blue;
+$font-stack: 'Open Sans';
 
 body {
+  padding-right: 3%;
+  padding-left: 3%;
+  margin-right: auto;
+  margin-left: auto;
   font-family: 'Open Sans', sans-serif;
-  color: $primary-color;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.standard-text {
+  font-weight: 300;
+}
+
+.text-center {
+  text-align: center;
 }
