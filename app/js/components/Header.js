@@ -1,14 +1,16 @@
 import React from 'react';
+import DCLogo from './DCLogo';
+import { Grid, Row, Col } from 'react-bootstrap';
 
 export default class Header extends React.Component {
 
   render() {
     return(
-      <div>
-        <h2 className="header-text">Dennis J. Chen</h2>
-        <h6 className="header-text">Software Developer</h6>
-        <hr/>
-      </div>
+      <Row className="dc-header">
+        <Col xs={12}>
+          <DCLogo />
+        </Col>
+      </Row>
     )
   }
 

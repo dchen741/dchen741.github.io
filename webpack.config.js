@@ -25,6 +25,10 @@ module.exports = {
           test: /\.scss$/,
           include: __dirname + '/app',
           loaders: ['style', 'css', 'sass']
+      },
+      {
+          test: /\.(png|gif)$/,
+          loader: 'url-loader?mimetype=image/png'
       }
     ]
   },
@@ -33,5 +37,5 @@ module.exports = {
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.HotModuleReplacementPlugin()
   ],
-
+  resolve: require('./webpack.resolve.js')
 };

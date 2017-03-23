@@ -1,26 +1,32 @@
 $font-stack: 'Open Sans';
 
 body {
-  padding-right: 10%;
-  padding-left: 10%;
-  padding-top: 1em;
-  margin-right: auto;
-  margin-left: auto;
+  // padding-right: 10%;
+  // padding-left: 10%;
+  // padding-top: 1em;
+  // margin-right: auto;
+  // margin-left: auto;
   font-family: 'Open Sans', sans-serif;
   color: #333333;
   background-color: #FFFFFF;
 }
 
-.standard-text {
-  font-weight: 300;
+.dc-header {
+  background: #808080;
+  height: 60px;
 }
 
-.header-text {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-weight: 400;
-}
-
-.text-center {
+.dc-logo {
+  padding-top: 5px;
   text-align: center;
+  background: red;
+  color: white;
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 15px;
+  border-radius: 1px;
+  &:hover {
+    cursor: pointer
+  }
 }
