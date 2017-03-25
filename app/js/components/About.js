@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
-import Banner from './Banner';
+import Transition from './Transition';
 import Work from './Work';
 import MeImage from '_media/me.png';
 import Sample from '_media/sample.png';
