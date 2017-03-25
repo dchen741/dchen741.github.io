@@ -1,6 +1,8 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
 import Transition from './Transition';
+import Sample from '_media/sample.png';
+import Adventure from './Adventure';
 
 export default class Life extends React.Component {
 
@@ -13,6 +15,16 @@ export default class Life extends React.Component {
             <Col xs={8} xsOffset={2}>
               <Row>
                 <Col xs={12} md={3}>
+                  <Adventure img={Sample} title={'Hawaii (01/2017)'} text={'WOOOO BEACHES'} />
+                </Col>
+                <Col xs={12} md={3}>
+                  <Adventure img={Sample} title={'Japan (10/2016)'} text={'Sushi galore!'} />
+                </Col>
+                <Col xs={12} md={3}>
+                  <Adventure img={Sample} title={'test'} text={'test'} />
+                </Col>
+                <Col xs={12} md={3}>
+                  <Adventure img={Sample} title={'test'} text={'test'} />
                 </Col>
               </Row>
             </Col>

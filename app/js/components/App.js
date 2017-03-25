@@ -3,6 +3,7 @@ import Header from './Header';
 import Intro from './Intro';
 import About from './About';
 import Life from './Life';
+import Ending from './Ending';
 import { Grid, Row, Col } from 'react-bootstrap';
 
 export default class App extends React.Component {
@@ -14,6 +15,7 @@ export default class App extends React.Component {
         <Intro />
         <About />
         <Life />
+        <Ending />
       </div>
     )
   }

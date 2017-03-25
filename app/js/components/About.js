@@ -19,7 +19,7 @@ export default class About extends React.Component {
                   <Work img={Sample} title={'IBM (2017-Present)'} text={'Killing it with new found Software Development skills.'}/>
                 </Col>
                 <Col xs={12} md={3}>
-                  <Work img={Sample} title={"IBM (2015-2016)'} text={'Learning the ropes, there's so many!"} />
+                  <Work img={Sample} title={'IBM (2015-2016)'} text={"Learning the ropes, there's so many!"} />
                 </Col>
                 <Col xs={12} md={3}>
                   <Work img={Sample} title={'Tufts (2011-2015)'} text={'Graduated! Obtained a B.S in Computer Science'} />
