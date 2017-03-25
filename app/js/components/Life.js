@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
-import Banner from './Banner';
+import Transition from './Transition';
 
 export default class Life extends React.Component {
 
