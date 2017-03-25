@@ -12,9 +12,11 @@ export default class Banner extends React.Component {
 
   render() {
     return(
-      <Row className="dc-banner">
+      <Row>
         <Col xs={12}>
-          <div className="dc-text-banner">{this.props.text}</div>
+          <div className="dc-banner">
+            <div className="dc-text-banner">{this.props.text}</div>
+          </div>
         </Col>
       </Row>
     )
