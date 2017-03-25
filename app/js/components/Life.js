@@ -8,7 +8,7 @@ export default class Life extends React.Component {
     return(
       <Row>
         <Col xs={12}>
-          <Banner text={'But I do have a life...'} />
+          <Transition text={'But I do have a life...'} />
           <Row>
             <Col xs={8} xsOffset={2}>
               <Row>

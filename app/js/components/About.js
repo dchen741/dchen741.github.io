@@ -11,7 +11,7 @@ export default class About extends React.Component {
     return(
       <Row>
         <Col xs={12}>
-          <Banner text={'The last few years have been busy...'} />
+          <Transition text={'The last few years have been busy...'} />
           <Row>
             <Col xs={8} xsOffset={2}>
               <Row>

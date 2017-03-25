@@ -4,7 +4,7 @@ import Intro from './Intro';
 import About from './About';
 import { Grid, Row, Col } from 'react-bootstrap';
 
-export default class Banner extends React.Component {
+export default class Transition extends React.Component {
 
   constructor(props) {
     super(props);
@@ -12,9 +12,9 @@ export default class Banner extends React.Component {
 
   render() {
     return(
-      <Row className="dc-banner">
+      <Row className="dc-transition">
         <Col xs={12}>
-          <div className="dc-text-banner">{this.props.text}</div>
+          <div className="dc-text-transition">{this.props.text}</div>
         </Col>
       </Row>
     )
