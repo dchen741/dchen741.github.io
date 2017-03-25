@@ -10,10 +10,10 @@ export default class Intro extends React.Component {
         <Col xs={10} xsOffset={1} md={8} mdOffset={2}>
           <Row>
             <Col xs={12} md={3}>
-              <img className="dc-me-img" src={MeImage}></img>
+              <img className="dc-img-me" src={MeImage}></img>
             </Col>
             <Col xs={12} md={9}>
-              <div className="dc-text-title">HI, I&#039;M DENNIS</div>
+              <div className="dc-text-title">HI, I&#039;M DENNIS!</div>
               <div className="dc-text-sub-title">
                 Aspiring Baker
                 <span> &#8226; </span>

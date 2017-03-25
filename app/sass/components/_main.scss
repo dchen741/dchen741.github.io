@@ -31,14 +31,27 @@ body {
   height: 60px;
 }
 
+.dc-banner {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  background: #FF4949;
+  height: 100px;
+}
+
 .dc-intro {
   margin-top: 200px;
 }
 
-.dc-about-header {
-  margin-top: 200px;
-  background: #FF4949;
-  height: 100px;
+.dc-about {
+
+  &-item-title {
+    font-weight: 600;
+    text-align: center;
+  }
+
+  &-item-description {
+
+  }
 }
 
 .dc-logo {
@@ -56,9 +69,19 @@ body {
   }
 }
 
-.dc-me-img {
-  height: 200px;
-  font-weight: bold;
+.dc-img {
+
+  &-me {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  &-about {
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 .dc-horizontal-rule {
