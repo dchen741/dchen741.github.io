@@ -18,6 +18,10 @@ body {
     font-size: 24px
   }
 
+  &-section-text {
+    font-size: 18px
+  }
+
   &-transition {
     margin-top: 34px;
     font-size: 24px;
@@ -97,4 +101,13 @@ body {
   height: 1.4px;
   min-width: 10px;
   background-color: black;
+}
+
+.dc-bottom-spacing {
+  margin-bottom: 50px
+}
+
+.dc-contact-icons {
+  height: 20px;
+  margin-right: 5px;
 }
