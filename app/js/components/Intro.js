@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Row, Col } from 'react-bootstrap';
+import { Grid, Row, Col, Image } from 'react-bootstrap';
 import MeImage from '_media/me.png';
 
 export default class Intro extends React.Component {
@@ -7,12 +7,12 @@ export default class Intro extends React.Component {
   render() {
     return(
       <Row className="dc-intro">
-        <Col xs={10} xsOffset={1} md={8} mdOffset={2}>
+        <Col xs={10} xsOffset={1} md={10} mdOffset={1}>
           <Row>
             <Col xs={12} md={3}>
-              <img className="dc-img-me" src={MeImage}></img>
+              <Image className="dc-img-me" src={MeImage} circle />
             </Col>
-            <Col xs={12} md={9}>
+            <Col xs={12} md={8}>
               <div className="dc-text-title">HI, I&#039;M DENNIS!</div>
               <div className="dc-text-sub-title">
                 Aspiring Baker

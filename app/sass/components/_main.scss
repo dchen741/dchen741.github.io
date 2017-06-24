@@ -50,8 +50,13 @@ body {
 
 .dc-about {
 
-  &-item-title {
+  &-item-date {
     font-weight: 600;
+    text-align: center;
+  }
+
+  &-item-title {
+    font-style: italic;
     text-align: center;
   }
 
