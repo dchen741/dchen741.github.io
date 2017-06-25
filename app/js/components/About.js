@@ -19,7 +19,7 @@ export default class About extends React.Component {
             <Col xs={8} xsOffset={2}>
               <Row>
                 <Col xs={12} md={3}>
-                  <Work img={IBM} date={'IBM (2017-Present)'} title={'Staff Software Engineer'} text={'Built Java apps, tackled iOS bugs and developed web features all for Watson Workspace.'}/>
+                  <Work img={IBM} date={'IBM (2017-Present)'} title={'Staff Software Engineer'} text={'Built Java apps, tackled iOS bugs and developed React/Redux/NodeJS features all for Watson Workspace.'}/>
                 </Col>
                 <Col xs={12} md={3}>
                   <Work img={IBM} date={'IBM (2015-2016)'} title={'Software Engineer'} text={"Research and Development in an incubator team. Learning the ropes, there's so many! "} />
