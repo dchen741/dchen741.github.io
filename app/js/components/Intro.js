@@ -1,6 +1,5 @@
 import React from 'react';
 import { Grid, Row, Col, Image } from 'react-bootstrap';
-import MeImage from '_media/me.png';
 
 export default class Intro extends React.Component {
 
@@ -10,7 +9,7 @@ export default class Intro extends React.Component {
         <Col xs={10} xsOffset={1} md={10} mdOffset={1}>
           <Row>
             <Col xs={12} md={3}>
-              <Image className="dc-img-me" src={MeImage} circle />
+              <Image className="dc-img-me" src={"http://dchen741.github.com/app/media/me.png"} circle />
             </Col>
             <Col xs={12} md={8}>
               <div className="dc-text-title">HI, I&#039;M DENNIS!</div>

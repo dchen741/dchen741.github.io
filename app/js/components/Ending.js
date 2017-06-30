@@ -1,10 +1,7 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
 import Transition from './Transition';
-import Sample from '_media/sample.png';
 import Adventure from './Adventure';
-import Gmail from '_media/gmail-icon.png';
-import LinkedIn from '_media/linkedin-256.png';
 
 export default class Ending extends React.Component {
 
@@ -22,11 +19,11 @@ export default class Ending extends React.Component {
                     Hit me up! :)
                   </div>
                   <div>
-                    <img className="dc-contact-icons" src={Gmail}></img>
+                    <img className="dc-contact-icons" src={"http://dchen741.github.com/app/media/gmail-icon.png"}></img>
                     <span><a href="mailto:dchen741@gmail.com" target="_top">Gmail</a></span>
                   </div>
                   <div>
-                    <img className="dc-contact-icons" src={LinkedIn}></img>
+                    <img className="dc-contact-icons" src={"http://dchen741.github.com/app/media/linkedin-256.png"}></img>
                     <span><a href="https://www.linkedin.com/in/dennis-chen-6694787b" target="_blank">LinkedIn</a></span>
                   </div>
                 </Col>
