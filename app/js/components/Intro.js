@@ -5,7 +5,7 @@ export default class Intro extends React.Component {
 
   render() {
     return(
-      <Row className="dc-intro">
+      <Row className="dc-intro dc-ending-spacing">
         <Col xs={10} xsOffset={1} md={10} mdOffset={1}>
           <Row>
             <Col xs={12} md={3}>
@@ -18,7 +18,7 @@ export default class Intro extends React.Component {
                 <span> &#8226; </span>
                 Dance Disaster
                 <span> &#8226; </span>
-                Enthusiastic Coder
+                Code Lover
               </div>
               <div className="dc-horizontal-rule"></div>
               <div>

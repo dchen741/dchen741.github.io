@@ -10,13 +10,11 @@ export default class App extends React.Component {
 
   render() {
     return(
-      <div>
+      <span>
         <Header />
         <Intro />
-        <About />
-        <Life />
         <Ending />
-      </div>
+      </span>
     )
   }
 

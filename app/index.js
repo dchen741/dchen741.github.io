@@ -5,8 +5,6 @@ import './sass/index.scss'
 import App from './js/components/App';
 
 render (
-  <div>
-    <App />
-  </div>,
+  <App />,
   document.getElementById('root')
 );
