@@ -8,6 +8,21 @@ body {
   background-color: #FFFFFF;
   max-width: 100%;
   overflow-x: hidden;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+body:after {
+  content: '';
+  display: block;
+  height: 60px; /* Set same as footer's height */
+}
+
+html, #root, #root > div {
+  height: 100%;
+  position: relative;
 }
 
 .dc-text {
@@ -33,12 +48,27 @@ body {
 }
 
 .dc-header {
-  background: #808080;
+  background: #FF4949;
   height: 60px;
 }
 
+.dc-ending {
+  background: #FF4949;
+  padding-left: 15px;
+  padding-top: 15px;
+  width: 100%;
+  height: 60px;
+  color: #FFFFFF;
+  margin-top: 150px;
+
+  &-link {
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+}
+
 .dc-transition {
-  margin-top: 200px;
+  margin-top: 150px;
   margin-bottom: 100px;
   background: #FF4949;
   height: 100px;
@@ -110,11 +140,12 @@ body {
   background-color: black;
 }
 
-.dc-bottom-spacing {
-  margin-bottom: 50px
-}
-
-.dc-contact-icons {
-  height: 20px;
-  margin-right: 5px;
+.dc-contact {
+  &-icons {
+    height: 20px;
+    margin-right: 5px;
+  }
+  &-spacing {
+    margin-left: 15px;
+  }
 }

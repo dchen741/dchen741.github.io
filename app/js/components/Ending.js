@@ -7,32 +7,27 @@ export default class Ending extends React.Component {
 
   render() {
     return(
-      <Row>
-        <Col xs={12}>
-          <Transition text={"Let's chat!"} />
-          <Row>
-            <Col xs={8} xsOffset={2}>
-              <Row>
-                <Col xs={12}>
-                  <div className="dc-text-section-text">
-                    So coffee isn&#039;t really my thing, but I&#039;m totally down for some tea or baked goods!
-                    Hit me up! :)
-                  </div>
-                  <div>
-                    <img className="dc-contact-icons" src={"http://dchen741.github.com/app/media/gmail-icon.png"}></img>
-                    <span><a href="mailto:dchen741@gmail.com" target="_top">Gmail</a></span>
-                  </div>
-                  <div>
-                    <img className="dc-contact-icons" src={"http://dchen741.github.com/app/media/linkedin-256.png"}></img>
-                    <span><a href="https://www.linkedin.com/in/dennis-chen-6694787b" target="_blank">LinkedIn</a></span>
-                  </div>
-                </Col>
-              </Row>
-            </Col>
-          </Row>
-          <div className="dc-bottom-spacing"></div>
-        </Col>
-      </Row>
+      <div className="dc-ending">
+        <span className="dc-text-section-text dc-ending-text">
+          Let&#039;s chat!
+        </span>
+        <span className="dc-contact-spacing">
+          <span>
+            <a className="dc-ending-link" href="mailto:dchen741@gmail.com" target="_top">
+              <img className="dc-contact-icons" src={"http://dchen741.github.com/app/media/gmail-icon.png"}></img>
+              Gmail
+            </a>
+          </span>
+        </span>
+        <span className="dc-contact-spacing">
+          <span>
+            <a className="dc-ending-link" href="https://www.linkedin.com/in/dennis-chen-6694787b" target="_blank">
+              <img className="dc-contact-icons" src={"http://dchen741.github.com/app/media/linkedin-256.png"}></img>
+              LinkedIn
+            </a>
+          </span>
+        </span>
+      </div>
     )
   }
 
