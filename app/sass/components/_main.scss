@@ -2,6 +2,12 @@
 $font-stack: 'Open Sans', sans-serif;
 $normal-stack: Helvetica, sans-serif;
 
+@mixin standard-transition {
+  transition: .3s linear;
+  -webkit-transition: .3s linear;
+  -ms-transition: .3s linear;
+}
+
 html, body {
   font-family: $font-stack;
   color: #333333;
@@ -42,12 +48,12 @@ html, body {
 }
 
 .dc-header {
-  background: #FF4949;
+  background-color: #FF4949;
   height: 60px;
 }
 
 .dc-ending {
-  background: #FF4949;
+  background-color: #FF4949;
   padding-left: 15px;
   padding-top: 15px;
   color: #FFFFFF;
@@ -57,8 +63,14 @@ html, body {
   height:60px;
 
   &-link {
+    padding: 5px;
     color: #FFFFFF;
     cursor: pointer;
+    @include standard-transition;
+    &:hover {
+      background-color: #FFFFFF;
+      color: #FF4949;
+    }
   }
 
   &-spacing {
@@ -69,7 +81,7 @@ html, body {
 .dc-transition {
   margin-top: 150px;
   margin-bottom: 100px;
-  background: #FF4949;
+  background-color: #FF4949;
   height: 100px;
 }
 
@@ -95,17 +107,21 @@ html, body {
 }
 
 .dc-logo {
+  border-radius: 1px;
   padding-top: 5px;
   text-align: center;
-  background: #FF4949;
-  color: white;
+  background-color: #FF4949;
+  color: #FFFFFF;
   width: 30px;
   height: 30px;
   margin-left: 15px;
   margin-top: 15px;
   border-radius: 1px;
+  @include standard-transition;
   &:hover {
-    cursor: pointer
+    cursor: pointer;
+    color: #FF4949;
+    background-color: #FFFFFF;
   }
 }
 

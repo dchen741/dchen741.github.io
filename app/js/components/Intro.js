@@ -16,13 +16,13 @@ export default class Intro extends React.Component {
               <div className="dc-text-sub-title">
                 Aspiring Baker
                 <span> &#8226; </span>
-                Dance Disaster
+                Enthusiastic Runner
                 <span> &#8226; </span>
-                Code Lover
+                Software Engineer
               </div>
               <div className="dc-horizontal-rule"></div>
               <div>
-                I&#039;m currently a Software Engineer at IBM.
+                I&#039;m currently a Staff Software Engineer at IBM.
                 I graduated in 2015 from Tufts University with a B.S in Computer Science. I love learning
                 about different technologies and have a passion for adventures. I am based in the
                 Boston area and if you would like to contact me, feel free to hit me up!
