@@ -9,7 +9,7 @@ export default class Ending extends React.Component {
     return(
       <div className="dc-ending">
         <span className="dc-text-section-text dc-ending-text">
-          Let&#039;s chat!
+          Connect with me!
         </span>
         <span className="dc-contact-spacing">
           <span>
