@@ -14,7 +14,7 @@ export default class Ending extends React.Component {
         <span className="dc-contact-spacing">
           <span>
             <a className="dc-ending-link" href="mailto:dennisjchen@gmail.com" target="_top">
-              <img className="dc-contact-icons" src={"http://dennisjchen.github.com/app/media/gmail-icon.png"}></img>
+              <img className="dc-contact-icons" src={"https://dennisjchen.github.com/app/media/gmail-icon.png"}></img>
               Gmail
             </a>
           </span>
@@ -22,7 +22,7 @@ export default class Ending extends React.Component {
         <span className="dc-contact-spacing">
           <span>
             <a className="dc-ending-link" href="https://www.linkedin.com/in/dennis-chen-6694787b" target="_blank">
-              <img className="dc-contact-icons" src={"http://dennisjchen.github.com/app/media/linkedin-256.png"}></img>
+              <img className="dc-contact-icons" src={"https://dennisjchen.github.com/app/media/linkedin-256.png"}></img>
               LinkedIn
             </a>
           </span>

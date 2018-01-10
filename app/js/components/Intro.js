@@ -9,7 +9,7 @@ export default class Intro extends React.Component {
         <Col xs={10} xsOffset={1} md={10} mdOffset={1}>
           <Row>
             <Col xs={12} md={3}>
-              <Image className="dc-img-me" src={"http://dennisjchen.github.com/app/media/me.png"} circle />
+              <Image className="dc-img-me" src={"https://dennisjchen.github.com/app/media/me.png"} circle />
             </Col>
             <Col xs={12} md={8}>
               <div className="dc-text-title">HI, I&#039;M DENNIS!</div>
