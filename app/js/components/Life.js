@@ -21,16 +21,16 @@ export default class Life extends React.Component {
               </Row>
               <Row>
                 <Col xs={12} md={3}>
-                  <Adventure img={"http://dchen741.github.com/app/media/acadia.png"} title={'Acadia, Maine (06/2017)'} text={'Hiking in the company of friends'} />
+                  <Adventure img={"http://dennisjchen.github.com/app/media/acadia.png"} title={'Acadia, Maine (06/2017)'} text={'Hiking in the company of friends'} />
                 </Col>
                 <Col xs={12} md={3}>
-                  <Adventure img={"http://dchen741.github.com/app/media/hawaii.png"} title={'Hawaii (01/2017)'} text={'10/10 Beaches'} />
+                  <Adventure img={"http://dennisjchen.github.com/app/media/hawaii.png"} title={'Hawaii (01/2017)'} text={'10/10 Beaches'} />
                 </Col>
                 <Col xs={12} md={3}>
-                  <Adventure img={"http://dchen741.github.com/app/media/franconia.png"} title={'Franconia Ridge (11/2016)'} text={'A 9 mile snowy hike'} />
+                  <Adventure img={"http://dennisjchen.github.com/app/media/franconia.png"} title={'Franconia Ridge (11/2016)'} text={'A 9 mile snowy hike'} />
                 </Col>
                 <Col xs={12} md={3}>
-                  <Adventure img={"http://dchen741.github.com/app/media/japan.png"} title={'Japan (10/2016)'} text={'Sushi, temples and sweets galore!'} />
+                  <Adventure img={"http://dennisjchen.github.com/app/media/japan.png"} title={'Japan (10/2016)'} text={'Sushi, temples and sweets galore!'} />
                 </Col>
               </Row>
             </Col>
